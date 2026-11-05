@@ -245,7 +245,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestTrigger
   PointStart: {fileID: 1780518174}
-  Player: {fileID: 656655412}
 --- !u!1 &299547330
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,7 +293,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 299547330}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -372,7 +371,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ResetTrigger
   PointStart: {fileID: 1780518174}
-  Player: {fileID: 656655412}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,11 +498,6 @@ MonoBehaviour:
   m_ShadowLayerMask: 1
   m_RenderingLayers: 1
   m_ShadowRenderingLayers: 1
---- !u!4 &656655412 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4207293392497186, guid: 11aaea5348574644a9eb4f4504fcce3f, type: 3}
-  m_PrefabInstance: {fileID: 698954054}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &698954054
 PrefabInstance:
   m_ObjectHideFlags: 0
